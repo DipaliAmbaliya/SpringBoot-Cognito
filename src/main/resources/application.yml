@@ -1,0 +1,24 @@
+server:
+  port: 9999
+
+aws:
+  cognito:
+    access-key: AKIAQTITR3Q5EADU2FUE
+    secret-access-key: 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
+    default-region: ap-south-1
+    client-id: "6ss1vcfmig3qa074nceo52d4ce"
+    user-pool-id: "ap-south-1_53NZ4XvFz"
+    connection-timeout: 3000
+    read-timeout: 3000
+    jwk: "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_53NZ4XvFz/.well-known/jwks.json"
+
+logging:
+  level:
+    org:
+      springframework: INFO
+    com:
+      simform: INFO
+  pattern:
+    console: "%d{dd-MM-yyyy HH:mm:ss} - %msg%n"
+
+
