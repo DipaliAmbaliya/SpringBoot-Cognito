@@ -3,8 +3,8 @@ server:
 
 aws:
   cognito:
-    access-key: AKIAQTITR3Q5EADU2FUE
-    secret-access-key: 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
+    access-key: 
+    secret-access-key: 
     default-region: ap-south-1
     client-id: "6ss1vcfmig3qa074nceo52d4ce"
     user-pool-id: "ap-south-1_53NZ4XvFz"
